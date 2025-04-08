@@ -1,0 +1,14 @@
+list out client side and server side and where it can be used
+compare contrast web 1.0 2.0 3.0 interactions
+explain different 
+deign challenges
+compare contrast html and xml
+html code which contains website of contact form
+ inline and extrenal css
+usecase of document obje t model 
+textbox combobox
+query code for double click nd change color
+compare jquery and js
+defne and diifrence website
+effiective navigation tips 
+process ao communication 

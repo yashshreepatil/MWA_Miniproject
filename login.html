@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School Management Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="email" name="email" placeholder="Email" required><br>
+      <input type="password" name="password" placeholder="Password" required><br>
+      <select name="role">
+        <option value="admin">Admin</option>
+        <option value="student">Student</option>
+      </select><br>
+      <button type="submit">Login</button>
+    </form>
+    <p id="error-msg"></p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

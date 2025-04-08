@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now - Prachiti International School</title>
+    <link rel="stylesheet" href="enroll.css">
+</head>
+<body>
+    <h2>Enroll Now</h2>
+    <form action="submit_enrollment.php" method="POST">
+        <label>Student Name:</label>
+        <input type="text" name="student_name" required><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required><br>
+
+        <label>Parent's Name:</label>
+        <input type="text" name="parent_name" required><br>
+
+        <label>Phone:</label>
+        <input type="text" name="phone" required><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
+
+        <label>Grade Applying For:</label>
+        <select name="grade">
+            <option value="Nursery">Nursery</option>
+            <option value="LKG">LKG</option>
+            <option value="UKG">UKG</option>
+            <option value="Class I">Class I</option>
+        </select><br>
+
+        <label>Address:</label>
+        <textarea name="address" required></textarea><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
