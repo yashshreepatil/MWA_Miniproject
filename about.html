@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Bootstrap CSS in <head> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Bootstrap JS before </body> -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <header class="hero-section">
-        <h1>About Us</h1>
-        <p>Shaping the Future, One Student at a Time</p>
-    </header>
+    
 
+    <!-- Fixed Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top main-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="Logo" height="50">
+        <div class="school-name1">PRACHITI <small>International School</small></div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="about.html">About</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="key_freatures.html">Features</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="portal.php">Login</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="hero-section">
+    <h1>About Us</h1>
+    <p>Shaping the Future, One Student at a Time</p>
+</header>
+  
     <div class="container">
         <!-- Vision & Mission Section -->
         <section class="vision-mission">

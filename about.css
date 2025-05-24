@@ -1,3 +1,86 @@
+a {
+    text-decoration: none;
+    color: #f89af8;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Top Info Bar */
+.top-bar {
+    background-color: #87337b;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1031;
+}
+
+/* Main Navbar */
+.main-navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    height: 83px;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0px; /* offset below top-bar */
+    z-index: 1030;
+}
+
+.school-name1 {
+    font-weight: 100;
+    color: #002b5c;
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 1;
+}
+/*.school-name {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color: #002b5c;
+}
+*/
+
+.school-name1 small {
+    display: block;
+    font-size: 13px;
+    color: #555;
+}
+
+.navbar-nav .nav-link {
+    color: #002b5c;
+    font-weight: 600;
+    padding: 8px 15px;
+    transition: color 0.3s ease;
+    text-decoration: none !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #87337b;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+/* Remove dropdown arrow */
+.navbar-nav .nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .school-name {
+        font-size: 16px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
 /* General Styling */
 body {
     font-family: 'Poppins', sans-serif;
@@ -13,6 +96,7 @@ body {
     color: white;
     text-align: center;
     padding: 60px 20px;
+    padding: 160px 20px 60px 20px /* Fixed offset for sticky navbar */;
 }
 
 .hero-section h1 {

@@ -41,5 +41,6 @@ $result = mysqli_query($conn, "SELECT * FROM marks");
             </tr>
         <?php endwhile; ?>
     </table>
+    <a href="admin_dashboard.php">Back to Dashboard</a>
 </body>
 </html>

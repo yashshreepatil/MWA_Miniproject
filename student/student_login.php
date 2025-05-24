@@ -17,8 +17,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $stmt->get_result();
 
     if ($result->num_rows === 1) {
+        $row = $result->fetch_assoc();  // Fetch the student details
         $_SESSION["student_logged_in"] = true;
         $_SESSION["roll"] = $roll;
+        $_SESSION["student_name"] = $row['name'];  // Store the student's name in the session
         header("Location: student_dashboard.php");
         exit();
     } else {

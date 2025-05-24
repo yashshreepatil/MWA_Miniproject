@@ -85,7 +85,15 @@ if (!isset($_SESSION["admin_logged_in"])) {
 
     <div class="dashboard-actions">
         <div class="dashboard-card">
-            <h3>Enter Marks</h3>
+            <h3>Enter student details</h3>
+            <a href="admin_student.php">Go</a>
+        </div>
+        <div class="dashboard-card">
+            <h3>Fee Management</h3>
+            <a href="fess_management.php">Go</a>
+        </div>
+        <div class="dashboard-card">
+            <h3>enter marks</h3>
             <a href="enter_marks.php">Go</a>
         </div>
         <div class="dashboard-card">
@@ -93,8 +101,8 @@ if (!isset($_SESSION["admin_logged_in"])) {
             <a href="generate_marksheet.php">Go</a>
         </div>
         <div class="dashboard-card">
-            <h3>Fee Management</h3>
-            <a href="fess_management.php">Go</a>
+            <h3>time table details</h3>
+            <a href="timetable_management.php">Go</a>
         </div>
     </div>
 
